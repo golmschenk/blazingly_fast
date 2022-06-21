@@ -1,0 +1,1 @@
+Blazingly fast bogosort because Rust.
