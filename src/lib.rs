@@ -3,7 +3,7 @@ extern crate rand;
 use rand::thread_rng;
 use rand::seq::SliceRandom;
 
-fn bogosort(mut vector: Vec<i32>) -> Vec<i32> {
+pub fn bogosort(mut vector: Vec<i32>) -> Vec<i32> {
     while !is_sorted(&vector) {
         vector.shuffle(&mut thread_rng())
     }
