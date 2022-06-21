@@ -114,3 +114,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/.idea/.gitignore
+/.idea/blazingly_fast.iml
+/.idea/modules.xml
+/.idea/vcs.xml
