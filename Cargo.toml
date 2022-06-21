@@ -2,6 +2,9 @@
 name = "blazingly_fast"
 version = "1.0.0"
 edition = "2021"
+description = "Blazingly fast bogosort because Rust."
+license = "Apache-2.0"
+license-file = "license.txt"
 
 [dependencies]
 rand = "0.8.5"
